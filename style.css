@@ -20,3 +20,10 @@
   position: absolute;
   top: -52px;
 }
+
+/* FIXME write a media rule that will remove postition absolute from the-spill-card class */
+
+img {
+  min-height: 30dvh;
+
+}

@@ -32,6 +32,7 @@
   <main class="">
     <div class="container-fluid">
       <div class="row plant-bg">
+        <!-- FIXME throw a form in a column here -->
         <div class="col-12 d-none d-md-block">
           <div class="text-center pt-5 pacifico-bold ">
             <h1>Get lost in the Jungle</h1>
@@ -41,7 +42,8 @@
     </div>
     <section class="container-fluid bg-success pb-5 ">
       <div class="row">
-        <div class="col-12 col-md-12 text-light pt-4">
+        <!-- FIXME make sure card and text switch places on mobile (order classes on phone section in barracuda) -->
+        <div class="col-md-6 col-12 text-light pt-4 order-md-1 order-2 ">
           <b class="ps-5">About Plants</b>
           <ul class="">
             <li class="">Our Plants</li>
@@ -50,12 +52,8 @@
             <li>Soil</li>
           </ul>
         </div>
-      </div>
-    </section>
-    <section class="container-fluid">
-      <div class="row jungle-bg justify-content-end">
-        <div class="col-md-6 col-12 text-dark bg-light pacifico-bold position-relative d-flex ">
-          <div class="the-spill-card d-flex mx-5 bg-light shadow-lg p-2">
+        <div class="col-md-6 col-12 text-dark bg-success pacifico-bold position-relative d-flex order-md-2 order-1 ">
+          <div class="the-spill-card d-flex mx-5 bg-light shadow-lg p-3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi illum aperiam aspernatur hic ab
               deserunt magni quae praesentium reiciendis dolorem, similique nesciunt vero facilis accusamus sequi ut
               dolor beatae.</p>
@@ -64,14 +62,27 @@
       </div>
     </section>
     <section class="container-fluid">
+      <div class="row justify-content-end d-flex ">
+        <img class="image-fluid "
+          src="https://images.unsplash.com/photo-1491147334573-44cbb4602074?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
+      </div>
+
+    </section>
+    <!-- FIXME add in section with img next to text -->
+    <section class="container-fluid">
       <div class="row justify-content-around align-items-center my-2">
-        <div class="col-md-3 pacifico-bold col-12">
+        <!-- FIXME make sure big card is on top on mobile (order classes on phone section in barracuda) -->
+
+        <div class="col-md-3 pacifico-bold col-12 order-2 order-md-1 m-2">
+
           <div class="shadow-lg p-3 bg-success">
             <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa unde
               consectetur.</p>
           </div>
         </div>
-        <div class="col-md-3 pacifico-bold col-12">
+        <div class="col-md-3 pacifico-bold col-12 order-1 order-md-2 m-2">
+
           <div class="shadow-lg p-3 bg-success">
             <div class="text-center text-light ">
               <span class="mdi mdi-sprout-outline fs-1"></span>
@@ -80,7 +91,8 @@
               consectetur.</p>
           </div>
         </div>
-        <div class="col-md-3 pacifico-bold col-12">
+        <div class="col-md-3 pacifico-bold col-12 ordrer-3 order-md-3 m-2">
+
           <div class="shadow-lg p-3 bg-success">
             <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa unde
               consectetur.</p>
@@ -89,7 +101,7 @@
       </div>
     </section>
   </main>
-  <Footer>
+  <footer>
     <div class="container-fluid bg-success">
       <div class="row py-4 text-center">
         <div class="col-12 text-light pacifico-bold">
@@ -100,7 +112,7 @@
         </div>
       </div>
     </div>
-  </Footer>
+  </footer>
 
 </body>
 
