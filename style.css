@@ -18,12 +18,28 @@
 
 .the-spill-card {
   position: absolute;
-  top: -52px;
+  top: 105px
 }
 
 /* FIXME write a media rule that will remove postition absolute from the-spill-card class */
 
 img {
-  min-height: 30dvh;
+  max-height: 40dvh;
 
+}
+
+@media screen AND (max-width: 850px) {
+  .the-spill-card {
+    top: -52px;
+  }
+}
+
+@media screen AND (max-width: 767.98px) {
+  .the-spill-card {
+    position: static;
+  }
+}
+
+.bigMt {
+  margin-top: 125px
 }
